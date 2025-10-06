@@ -20,4 +20,4 @@ phases:
   post_build:
     commands:
       - echo "Uploading to S3"
-      - aws s3 cp build_${VERSION}.zip s3://baskaran-build-artifactse/releases/
+      - aws s3 cp build_${VERSION}.zip s3://baskaran-build-artifacts/releases/
